@@ -1,0 +1,54 @@
+﻿word = (12 + 3 * 2) / (10 * 3 - 4 * 6)
+word2 = PI + word
+str = "a" * 5 + "ba" * 7 
+
+println str
+println "word = " + word
+println "word2 = " + word2
+println "1" == "1"
+
+if (1 == 1) println "1 == 1"
+else println "1 != 1"
+
+if (40 < 50 && 50 <= 60) 
+{
+	println "true1"
+	println "true2"
+	
+	i = 0
+	do 
+	{
+		println "i = " + i
+		i = i + 1
+	}
+	while (i < 10)
+}
+else println "false"
+
+println "sin(PI/2) = " + sin(PI/2)
+
+a = "print"
+println a
+
+def name(a,b) 
+{
+	echo("a = ", a, "b = ", b)
+}
+def sum(a, b) return a + b
+
+name(1, "text")
+println sum(10, 15)
+
+arr = [1, "text", sum(10, 12), [], ["s1", [90, [7 + 6, [50]]]]]
+println arr
+arr[0] = arr[0] + 1000 + arr[2]
+println arr
+println arr[4][1]
+arr[4][1] = "newvalue"
+println arr[4][1]
+
+println "\n"
+echoline()
+
+array = newArray(2, 2, 2)
+println array

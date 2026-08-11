@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../Math Calculator/Math Calculator.csproj" />
+  <Project Path="Own Language.csproj" />
+</Solution>
