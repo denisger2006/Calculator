@@ -134,7 +134,8 @@ namespace Math_Calculator
                 inputTextBox.Clear();
                 outputTextBox.Clear();
 
-                historyForm?.UpdateView();
+                if (HistoryOpen)
+                    historyForm.UpdateView();
             }
         }
         //ОТКРЫТИЕ ОКНА ИСТОРИИ ВЫЧИСЛЕНИЙ
