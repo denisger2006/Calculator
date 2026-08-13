@@ -10,7 +10,6 @@ namespace Math_Calculator
         private readonly List<(string, string)> history = [];
 
         public static HistoryForm historyForm;
-        public static bool IsFirstStack = true;
 
         private bool HistoryOpen
             => historyForm != null && !historyForm.IsDisposed;
